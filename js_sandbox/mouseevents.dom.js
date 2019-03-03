@@ -20,4 +20,8 @@ clearBtn.addEventListener(`mouseleave`, runEvent);
 //Even Handler
 function runEvent(e) {
     console.log(`EVENT TYPE: ${e.type}`);
+
+    heading.textContent = `MouseX: ${e.offsetX} Mousey: ${e.offsetY}`;
+
+    document.body.style.backgroundColor = `rgb(${e.offsestX}, ${e.offsetY}, 40)`;
 }
