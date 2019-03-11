@@ -17,3 +17,15 @@ Address = '100 Fair St'
 // Andrew Mead - JS Bootcamp
 
 // INVOCATION: Running a function. In JS, by using parenthesis ()
+
+// There is a creation phase and then execution phase
+
+// Single Threaded: one command at a time, only one command at a time
+
+// Synchronous: one at time and for JS, in order. Code is executed one line a time, in the order that it is written
+
+// Variable Environments: where the variables live and how they relate to each other in memory
+
+// Scope: where a variable is available in your code
+
+// Asynchronous: more than one at a time
