@@ -1,13 +1,19 @@
-window.onload=function(){
+const carp = document.getElementById("carpic");
+const cart = document.getElementById("cartext");
+const catp = document.getElementById("catpic");
+const catt = document.getElementById("cattext");
+const doorp = document.getElementById("doorpic");
+const doort = document.getElementById("doortext");
 
-const readbox = document.querySelector('readpic-card');
-const textbox = document.querySelectorAll('readtext-card');
+carp.addEventListener("click", pairone);
+cart.addEventListener("click", pairone);
 
-readbox.addEventListener('click', () => {
-    readbox.classList.toggle('pairone');
-  }); 
-
-  window.onload=function(){
-    -- put your code here
+//toggle back and forth
+function parione (el){
+  this.classList.toggle("pairone");
+  if(el.className === "this"){
+    el.className = "pairone";
+  } else {
+    el.className = "this";
   }
 }
